@@ -1,12 +1,27 @@
+
+
+<h2 align="center"> 🛠 my Tech Stack 🛠 </h2>
+<h6 align="center"> <img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/>
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/> 
+<img src="https://img.shields.io/badge/PowerBI-F2C811?style=flat-square&logo=PowerBI&logoColor=yellow"/> 
+<img src="https://img.shields.io/badge/Slack-4A154B?style=flat-square&logo=Slack&logoColor=red"/> 
+<img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=flat-square&logo=Visual Studio Code&logoColor=white"/> </h6>
+
+<h2 align="center"> 🌱 tech used in the project 🌱 </h2>
+<h6 align="center"> <img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/>
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/> 
+<img src="https://img.shields.io/badge/Slack-4A154B?style=flat-square&logo=Slack&logoColor=red"/> 
+<img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=flat-square&logo=Visual Studio Code&logoColor=white"/> </h6>
+
+
 <h3 align="center"> 주제 </h3>
 
 <h4 align="center">
 우리가 매일 가는 문래 오늘의 밥상! 매번 홈페이지 들어가기 귀찮은데, 알려주는 봇이 있으면 좋겠다!! --> 오밥봇을 만들자! </h4>
 
-<hr/> 
-
 ---------------------------------------
-  
+
+
 오늘의 밥은 뭘까?
 
 오늘의 밥상에서 이미지를 긁어와 OCR을 이용해 메뉴를 업로드한다.
