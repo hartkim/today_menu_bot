@@ -1,15 +1,15 @@
 
 <div align=center>
   
-![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300§ion=header&text=오늘의%20밥상%20메뉴%20알림봇🍚&desc=This%20is%20Sumin%20playground.%20&fontSize=40&descSize=30&fontColor=000000&fontAlignY=20)
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300§ion=header&text=오늘의%20밥상%20메뉴%20알림봇🍚&desc=서브%20프로젝트%20요약&fontSize=40&descSize=25&fontColor=000000&fontAlignY=30)
+<br/><br/>
 <h2 > 🛠 my Tech Stack 🛠 </h2>
 <h6> <img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/>
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/> 
 <img src="https://img.shields.io/badge/PowerBI-F2C811?style=flat-square&logo=PowerBI&logoColor=yellow"/> 
 <img src="https://img.shields.io/badge/Slack-4A154B?style=flat-square&logo=Slack&logoColor=red"/> 
 <img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=flat-square&logo=Visual Studio Code&logoColor=white"/> </h6>
-
+<br/><br/>
 <h2> 🌱 tech used in the project 🌱 </h2>
 <h6> <img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/>
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/> 
@@ -17,7 +17,7 @@
 <img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=flat-square&logo=Visual Studio Code&logoColor=white"/> </h6>
 
 ---------------------------------------
-
+<br/><br/>
 <h2> <span style="color:red">주제 </h2></span>
 <h3> 오늘의 밥상 인스타그램 크롤링을 통해 메뉴 알림 슬랙 봇 제작 </h3>
 
