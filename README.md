@@ -2,10 +2,7 @@
 <div align=center>
   
 ![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300§ion=header&text=오늘의%20밥상%20메뉴%20알림봇🍚&desc=This%20is%20Sumin%20playground.%20&fontSize=40&descSize=30&fontColor=000000&fontAlignY=20)
-
-
-
-
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
 <h2 > 🛠 my Tech Stack 🛠 </h2>
 <h6> <img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/>
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/> 
