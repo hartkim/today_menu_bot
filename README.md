@@ -3,7 +3,7 @@
   
 ![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300§ion=header&text=오늘의%20밥상%20메뉴%20알림봇🍚&desc=오늘의밥상%20인스타그램%20크롤링을%20통해%20메뉴%20알림%20슬랙%20봇%20제작&fontSize=40&descSize=25&fontColor=000000&fontAlignY=30)
 
-<br/><br/>
+<br/>
 <h2> 🌱 tech used in the project 🌱 </h2>
 <h6> <img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/>
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/> 
@@ -15,31 +15,31 @@
 ---------------------------------------
 <br/>
 
-<h3>1. 프로젝트 개요  </h3>
-<img width="304" alt="오늘의밥상_개요" src="https://github.com/sesac-2023/sub_project_kimsj/assets/55127185/a49d614d-4532-43dc-82c7-c3f5de5247d0">
+<h2>1. 프로젝트 개요  </h2><br/>
+<img width="304" alt="오늘의밥상_개요" src="https://github.com/sesac-2023/sub_project_kimsj/assets/55127185/a49d614d-4532-43dc-82c7-c3f5de5247d0"><br/><br/>
+1. mysql과 python이랑 연동하여, 최신 날짜를 가져왔고, datetime.today()를 이용해 오늘 날짜를 가져왔다.<br/><br/>
+2.-1 오늘날짜 =! db날짜 이면, 크롤링이 필요하다고 생각하고 계속 크롤링<br/><br/>
+2-2. 오늘날짜 == db날짜 이면, 크롤링이 이미 끝나 데이터 수집이 완료되었다고 봄.<br/><br/>
+3-1. 크롤링 날짜 != 오늘 날짜 이면, 게시물이 아직 올라오지 않았다고 판단하여 계속 크롤링<br/><br/>
+3-2. 크롤링 날짜 == 오늘 날짜 이면, 크롤링이 완료되었다고 보고 mysql db에 업데이트를 해줌<br/><br/>
+4. 슬랙봇에게 정보를 줘서 슬랙에 알림이 가게 만듦
+<br/><br/><br/>
 
+---------------------------------------
 
+<h3>2. 프로젝트 정보</h3><br/>
+- 오늘의_밥상_알리미.py : 최종적인 오늘의밥상 슬랙 봇 코드가 있는 python 파일<br/><br/>
+- 데이터베이스.ipynb : python과 데이터베이스 연결 jupyter notebook 파일<br/><br/>
+- 슬랙봇만들기.ipynb : python과 슬랙 연결 jupyter notebook 파일<br/><br/>
+- 오밥크롤링_인스타.ipynb : 오늘의 밥상 인스타그램 크롤링 하는 코드가 있는 jupyter notebook 파일
+<br/><br/><br/>
 
-<h3>2. 프로젝트 정보</h3>
+---------------------------------------
 
 <h3>3. 프로젝트 결과물 </h3>
 
 
-오늘의 밥은 뭘까?
 
-오늘의 밥상에서 이미지를 긁어와 OCR을 이용해 메뉴를 업로드한다.
-
-url : https://blog.naver.com/skfoodcompany
-
-## 구체화
-
-1. 오늘의 밥상에서 일자 크롤링
-2. 오늘의 밥상에서 제일 첫번째 이미지 크롤링
-3. 크롤링 한 내용을 .. OCR처리 tool에 가져오기
-4. OCR에서 내용 처리하기
-(PORORO OCR : https://yunwoong.tistory.com/210)
-5. 처리한 내용 데이터 베이스에 저장?하기
-6. 텔레그램 봇 통해서 나한테 알림 보내기
 
 </div>
 
