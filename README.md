@@ -38,6 +38,7 @@
 
 <h3>3. 프로젝트 결과물 </h3>
 
+<img width="910" alt="오늘의밥상_결과물" src="https://github.com/sesac-2023/sub_project_kimsj/assets/55127185/759d2168-ff9a-435c-b184-469c00927f42">
 
 
 
