@@ -1,4 +1,4 @@
-# 주제
+<h6 align="center"># 주제
 
 오늘의 밥은 뭘까?
 
@@ -20,4 +20,4 @@ url : https://blog.naver.com/skfoodcompany
 목록열기 - 게시물 누르면 url이 바뀌는데 이 url을 저장해놓고
 어제의 url과 현재 url이 같으면 업로드 x
 어제의 url과 현재 url이 다르면 업로드 o
-로 판단해서 크롤링 하면 되지 않을까??
+로 판단해서 크롤링 하면 되지 않을까?? </h6>
