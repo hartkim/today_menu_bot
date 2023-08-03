@@ -37,15 +37,9 @@
 ---------------------------------------
 
 <h3>3. 프로젝트 결과물 </h3>
-
-<img width="910" alt="오늘의밥상_결과물" src="https://github.com/sesac-2023/sub_project_kimsj/assets/55127185/759d2168-ff9a-435c-b184-469c00927f42">
-
-
+<img width="986" alt="오늘의밥상_결과물_db" src="https://github.com/sesac-2023/sub_project_kimsj/assets/55127185/8076a2cb-8584-4d19-85db-220a61a4645b"><br/>
+mysql 저장된 데이터 <br/><br/><br/>
+<img width="910" alt="오늘의밥상_결과물" src="https://github.com/sesac-2023/sub_project_kimsj/assets/55127185/759d2168-ff9a-435c-b184-469c00927f42"><br/>
+슬랙에 보내진 메시지
 
 </div>
-
-#### 새로 올라온 데이터라는걸 어떻게 확인할 수 있을까??
-목록열기 - 게시물 누르면 url이 바뀌는데 이 url을 저장해놓고
-어제의 url과 현재 url이 같으면 업로드 x
-어제의 url과 현재 url이 다르면 업로드 o
-로 판단해서 크롤링 하면 되지 않을까?? 
