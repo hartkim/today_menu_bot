@@ -16,8 +16,8 @@ import slack_sdk
 
 
 while True:
-    #time.sleep(60) # 10분에 한번 실행
-
+    #time.sleep(600) # 10분에 한번 실행
+    time.sleep(600)
     # 시크릿 파일 읽기
     with open('secret','r') as f:
         secret = {l.split('=')[0]: l.split('=')[1].rstrip() for l in f.readlines()}
@@ -39,6 +39,7 @@ while True:
     cur.execute(sql)
     result = cur.fetchone()
     result = (result[0])
+    result= result.strftime("%Y-%m-%d")
     conn.close()
 
     # 오늘 날짜 가져오기
@@ -46,7 +47,7 @@ while True:
         
         # 만약 오늘날짜 != db날짜 이면, 오늘의 밥상 크롤링
     if today != result:
-            # 크롤링
+            #크롤링
         driver = webdriver.Chrome()
 
         driver.get("https://www.instagram.com")
