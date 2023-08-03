@@ -16,6 +16,7 @@
 <br/>
 
 <h3>1. 프로젝트 개요  </h3>
+<img width="304" alt="오늘의밥상_개요" src="https://github.com/sesac-2023/sub_project_kimsj/assets/55127185/a49d614d-4532-43dc-82c7-c3f5de5247d0">
 
 
 
