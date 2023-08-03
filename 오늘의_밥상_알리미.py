@@ -51,8 +51,8 @@ while True:
         driver = webdriver.Chrome()
 
         driver.get("https://www.instagram.com")
+        driver.implicitly_wait(10)	# 암시적 대기 시간 10초 설정
 
-        time.sleep(1)
 
         #인스타 아이디
         id = id_
@@ -70,7 +70,6 @@ while True:
 
         #엔터
         input[1].send_keys(Keys.RETURN)
-        time.sleep(5)
 
         #로그인 정보 저장 여부 ("나중에 하기 버튼 클릭")
         btn_later1 = driver.find_element(By.CLASS_NAME,'_ac8f')
