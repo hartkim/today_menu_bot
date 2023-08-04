@@ -7,9 +7,8 @@ from selenium.webdriver.common.by import By
 from datetime import datetime    
 
 
-def crawler():
-    with open('secret','r') as f:
-        secret = {l.split('=')[0]: l.split('=')[1].rstrip() for l in f.readlines()}
+def crawler(secret):
+
     id_= secret['id'].replace("\'","")
     pw_= secret['pw'].replace("\'","")
     
