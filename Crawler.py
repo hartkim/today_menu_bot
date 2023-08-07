@@ -63,7 +63,6 @@ def crawler(secret):
 
     # 내용 뽑아서 menu에 저장
     contents = contents[0].text
-    maybe = contents[1]
     menu = contents.split()[3:-2]
     menu = (',').join(menu)
     menu = menu.replace(',', '\n').split('\n')

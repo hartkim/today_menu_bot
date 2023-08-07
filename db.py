@@ -1,5 +1,6 @@
 import pymysql
 
+# database 연결하기
 def connect_db(secret):
     host_= secret['host'].replace("\'","")
     user_= secret['user'].replace("\'","")
