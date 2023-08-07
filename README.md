@@ -27,11 +27,23 @@
 
 ---------------------------------------
 
-<h3>2. 프로젝트 정보</h3><br/>
-- 오늘의_밥상_알리미.py : 최종적인 오늘의밥상 슬랙 봇 코드가 있는 python 파일<br/><br/>
-- 데이터베이스.ipynb : python과 데이터베이스 연결 jupyter notebook 파일<br/><br/>
-- 슬랙봇만들기.ipynb : python과 슬랙 연결 jupyter notebook 파일<br/><br/>
-- 오밥크롤링_인스타.ipynb : 오늘의 밥상 인스타그램 크롤링 하는 코드가 있는 jupyter notebook 파일
+<h3>2. 모듈 정보</h3><br/>
+- 오늘의_밥상_알리미.py : 최종적인 오늘의밥상 슬랙 봇 코드가 있는 모듈 <br/>
+
+while True:
+- mysql에서 최신날짜 가져와서 result 에 저장, detetime.tooday()로 현재 날짜 불러온 후 today에 할당
+- 만약 result 랑 today가 같다면 오늘날짜 데이터 수집 완료 출력
+    - 같지 않다면 crawler(secret) 모듈 실행
+    - now: 크롤링 한 포스팅 날짜, menu : 크롤링 한 포스팅 메뉴
+- 만약 크롤링을 한 후에도 날짜가 같지 않다면 같아질때까지 크롤링
+    - 같다면 mysql에 연결 후 now,menu를 저장
+    - 그 후 msg_bot 모듈을 통해 슬랙에 메세지 출력
+<br/>
+- read_file.py : 민감한 정보가 들어간 secret file을 읽어오는 모듈 <br/><br/>
+- crawler.py : selenium을 통한 인스타그램 크롤링 menu = 오늘의 메뉴 now = 크롤링 된 날짜 return now,menu
+db.py :
+obap_slack.py :
+
 <br/><br/><br/>
 
 ---------------------------------------
