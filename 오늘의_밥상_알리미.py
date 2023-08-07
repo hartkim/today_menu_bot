@@ -2,7 +2,6 @@
 
 import time
 from datetime import datetime
-
 from read_file import read_file
 from crawler import crawler
 from db import get_today, save_db, connect_db
@@ -10,7 +9,7 @@ from obap_slack import msg_bot
 
 
 while True:
-    #time.sleep(600) # 10분에 한번 실행
+    time.sleep(600) # 10분에 한번 실행
 
     secret = read_file()
 

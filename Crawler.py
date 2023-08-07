@@ -14,7 +14,7 @@ def crawler(secret):
     
     driver = webdriver.Chrome()
     driver.get("https://www.instagram.com")
-    driver.implicitly_wait(10)	# 암시적 대기 시간 10초 설정
+    driver.implicitly_wait(20)	# 암시적 대기 시간 10초 설정
 
     #인스타 아이디
     id = id_
@@ -63,11 +63,26 @@ def crawler(secret):
 
     # 내용 뽑아서 menu에 저장
     contents = contents[0].text
-
+    maybe = contents[1]
     menu = contents.split()[3:-2]
     menu = (',').join(menu)
     menu = menu.replace(',', '\n').split('\n')
-    
-    # 오늘날짜 기록
-    now = datetime.today().strftime("%Y-%m-%d")
+
+
+     # 오늘날짜 기록
+    #now = datetime.today().strftime("%Y-%m-%d")
+    # 원래 이 코드로 날짜 수집했는데, 그러면 크롤링 한 날짜가 수집이 되어서
+    # 메뉴를 크롤링 하는 날이 달라질때마다 같은 메뉴인데 날짜가 달라짐
+    # 그래서 아래와 같이 수정
+
+
+
+    # 크롤링 된 게시물 날짜 기록
+    crawler_date = "2023년" + contents.split()[2].lstrip('#')
+    datetime_string = crawler_date
+    datetime_format = "%Y년%m월%d일"
+    datetime_result = datetime.strptime(datetime_string, datetime_format)
+
+    now = str(datetime_result.year)+"-"+'0'+str(datetime_result.month)  +"-" +  '0'+str(datetime_result.day)
+
     return now,menu
