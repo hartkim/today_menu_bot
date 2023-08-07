@@ -15,7 +15,7 @@
 ---------------------------------------
 <br/>
 
-<h2>1. 프로젝트 개요  </h2><br/>
+<h3>1. 프로젝트 개요  </h3><br/>
 <img width="304" alt="오늘의밥상_개요" src="https://github.com/sesac-2023/sub_project_kimsj/assets/55127185/a49d614d-4532-43dc-82c7-c3f5de5247d0"><br/><br/>
 1. mysql과 python이랑 연동하여, 최신 날짜를 가져왔고, datetime.today()를 이용해 오늘 날짜를 가져왔다.<br/><br/>
 2.-1 오늘날짜 =! db날짜 이면, 크롤링이 필요하다고 생각하고 계속 크롤링<br/><br/>
