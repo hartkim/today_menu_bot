@@ -76,12 +76,14 @@ def crawler(secret):
 
 
 
-    # 크롤링 된 게시물 날짜 기록
     crawler_date = "2023년" + contents.split()[2].lstrip('#')
     datetime_string = crawler_date
     datetime_format = "%Y년%m월%d일"
     datetime_result = datetime.strptime(datetime_string, datetime_format)
 
-    now = str(datetime_result.year)+"-"+'0'+str(datetime_result.month)  +"-" +  '0'+str(datetime_result.day)
+    if datetime_result.day < 10:
+        now = str(datetime_result.year)+"-"+'0'+str(datetime_result.month)  +"-" + '0'+str(datetime_result.day)
+    else:
+        now = str(datetime_result.year)+"-"+'0'+str(datetime_result.month)  +"-" + str(datetime_result.day)
 
     return now,menu
