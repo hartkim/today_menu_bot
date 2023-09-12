@@ -9,7 +9,7 @@ from obap_slack import msg_bot
 
 
 while True:
-    #time.sleep(200) # 10분에 한번 실행
+    time.sleep(600) # 10(600초)분에 한번 실행
 
     secret = read_file()
 
@@ -44,7 +44,6 @@ while True:
     # pymysql.connect(host=서버IP주소, user=사용자, passoword=암호, db=데이터베이스, charset=문자세트)
 
     # 슬랙봇
-
     chat = "안녕하세요! 오밥요정입니다!\n\n\n\n{}\n\n\n\n 오늘의 밥상 메뉴는 \n\n\n\n {} \n\n\n\n 즐거운 점심시간 되세요!".format(now,('\n').join(menu)) # 보낼 메시지 입력
     msg_bot(secret, chat)
     break
