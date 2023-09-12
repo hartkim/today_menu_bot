@@ -59,6 +59,7 @@ def crawler(secret):
     soup = BeautifulSoup(html,'html.parser')
     # 원하는 내용만 추출
     contents = soup.select("._aacl._aaco._aacu._aacx._aad7._aade")
+    day = soup.select("_a9ze _a9zf")
     time.sleep(2)
 
     # 내용 뽑아서 menu에 저장
@@ -87,3 +88,5 @@ def crawler(secret):
         now = str(datetime_result.year)+"-"+'0'+str(datetime_result.month)  +"-" + str(datetime_result.day)
 
     return now,menu
+
+

@@ -9,7 +9,7 @@ from obap_slack import msg_bot
 
 
 while True:
-    time.sleep(300) # 5분에 한번 실행
+    #time.sleep(200) # 10분에 한번 실행
 
     secret = read_file()
 
@@ -45,6 +45,6 @@ while True:
 
     # 슬랙봇
 
-    chat = "안녕하세요! \n\n\n\n{}\n\n\n\n 오늘의 밥상 메뉴는 \n\n\n\n {} \n\n\n\n 즐거운 점심시간 되세요!".format(now,('\n').join(menu)) # 보낼 메시지 입력
+    chat = "안녕하세요! 오밥요정입니다!\n\n\n\n{}\n\n\n\n 오늘의 밥상 메뉴는 \n\n\n\n {} \n\n\n\n 즐거운 점심시간 되세요!".format(now,('\n').join(menu)) # 보낼 메시지 입력
     msg_bot(secret, chat)
     break
