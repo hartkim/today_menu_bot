@@ -1,0 +1,6 @@
+pymysql
+slack-sdk
+selenium
+webdriver-manager
+beautifulsoup4
+pandas
