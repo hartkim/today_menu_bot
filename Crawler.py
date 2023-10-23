@@ -1,18 +1,19 @@
 from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 import time
 from bs4 import BeautifulSoup
 import pandas as pd
-from selenium.webdriver.common.by import By
 from datetime import datetime    
-
 
 def crawler(secret):
 
     id_= secret['id'].replace("\'","")
     pw_= secret['pw'].replace("\'","")
     
-    driver = webdriver.Chrome()
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
     driver.get("https://www.instagram.com")
     driver.implicitly_wait(20)	# 암시적 대기 시간 10초 설정
 

@@ -7,7 +7,7 @@ def connect_db(secret):
     password_= secret['password'].replace("\'","")
     db_= secret['db'].replace("\'","")
 
-    conn = pymysql.connect(host = host_,user = user_,password= password_,db=db_,charset ='utf8')
+    conn = pymysql.connect(host = host_,user = user_,password= password_,db=db_,charset ='utf8mb4')
     return conn
 
 
